@@ -3,6 +3,7 @@ import CollectionMarquee from "@/components/custom/collection-marquee";
 import Image from "next/image";
 import MintCardGrid from "@/components/custom/mint-cards";
 import LeagueCard from "@/components/custom/league";
+import { Footer } from "@/components/custom/footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <CollectionMarquee />
       <MintCardGrid />
       <LeagueCard />
+      <Footer />
     </>
   );
 }
